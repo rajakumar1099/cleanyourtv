@@ -21,3 +21,17 @@ bench-results/
 *.aab
 launcher/hs_err_pid*.log
 launcher/replay_pid*.log
+
+# Local Android SDK tooling and downloaded zip archives
+*.zip
+android-sdk/
+platform-tools/
+
+# Local device-specific scripts and notes (contains private TV IP & configuration)
+# build_and_install.ps1
+# restore.ps1
+# README_MOOR2.md
+
+# IDE and Editor files
+.vscode/
+.idea/
